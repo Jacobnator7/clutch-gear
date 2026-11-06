@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clutch Gear — Gaming Accessories</title>
+  <meta name="description" content="Clutch Gear affiliate picks for mice, keyboards, headsets, controllers, mousepads, and streaming gear. Prices and availability set by Amazon." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">⚡</span>
+        <div>
+          <h1>Clutch Gear</h1>
+          <p class="tagline">Gaming accessories worth the click</p>
+        </div>
+      </div>
+      <nav class="header-nav" aria-label="Categories">
+        <a href="#catalog">Shop</a>
+        <a href="#disclosure">Disclosure</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow">Affiliate storefront · Amazon Associates</p>
+      <h2>Gear that keeps you in the fight</h2>
+      <p class="lede">
+        Mice, keyboards, headsets, controllers, mousepads, and streaming kits —
+        popular models with clean links out to Amazon. We don’t sell stock or take checkout.
+      </p>
+      <aside id="disclosure" class="disclosure" role="note">
+        <strong>Affiliate disclosure:</strong>
+        Clutch Gear earns a commission from qualifying purchases through links on this site.
+        Prices and availability are set by the retailer and can change.
+      </aside>
+    </section>
+
+    <section id="catalog" class="catalog wrap">
+      <div class="filters" role="tablist" aria-label="Filter by category">
+        <button type="button" class="filter-btn is-active" data-category="all" role="tab" aria-selected="true">All</button>
+        <button type="button" class="filter-btn" data-category="mice" role="tab" aria-selected="false">Mice</button>
+        <button type="button" class="filter-btn" data-category="keyboards" role="tab" aria-selected="false">Keyboards</button>
+        <button type="button" class="filter-btn" data-category="headsets" role="tab" aria-selected="false">Headsets</button>
+        <button type="button" class="filter-btn" data-category="controllers" role="tab" aria-selected="false">Controllers</button>
+        <button type="button" class="filter-btn" data-category="mousepads" role="tab" aria-selected="false">Mousepads</button>
+        <button type="button" class="filter-btn" data-category="streaming" role="tab" aria-selected="false">Streaming</button>
+      </div>
+      <p id="status" class="status" aria-live="polite">Loading products…</p>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        Clutch Gear earns a commission from qualifying purchases through links on this site.
+        Prices and availability are set by the retailer and can change.
+      </p>
+      <p class="footer-meta">No checkout · No cart · No personal data forms · Static site</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
