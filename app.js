@@ -99,7 +99,7 @@ function createCard(product) {
 
   article.innerHTML = `
     <div class="card-media">
-      <img src="${product.image}" alt="${escapeAttr(product.name)}" loading="lazy" width="400" height="400" />
+      <img src="${product.image}" alt="${escapeAttr(product.name)}" loading="eager" width="400" height="400" />
     </div>
     <div class="card-body">
       <p class="card-cat">${escapeHtml(cat)}</p>
